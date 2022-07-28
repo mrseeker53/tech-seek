@@ -5,3 +5,8 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+
+.about-bg-primary {
+    background-color: aliceblue;
+}
