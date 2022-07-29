@@ -55,7 +55,7 @@
                             <a class="nav-link" href="#FAQ">FAQ</a>
                         </li>
                         <li class="nav-item ps-4">
-                            <a class="nav-link" href="#register">Register</a>
+                            <a class="nav-link" href="#join">Join</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -243,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div id="register" class="text-center">
+            <div class="text-center">
                 <button class="btn btn-white bg-info text-white border-0 fw-bold ps-4 pe-4 mt-5" type="button">
                     <a href="#home" class="nav-link text-white">View All</a>
                 </button>
@@ -296,7 +296,7 @@
                             <div id="register">
                                 <button class="btn btn-white bg-info text-white border-0 fw-bold ps-4 pe-4 mt-5"
                                     type="button">
-                                    <a href="#home" class=" nav-link text-white">Read More</a>
+                                    <a href="#home" class="nav-link text-white">Read More</a>
                                 </button>
                             </div>
                         </div>
@@ -309,15 +309,21 @@
 
 
         <!-- ------------------------- Register Section Start ------------------------- -->
-        <section class="mt-5 pt-5">
+        <section class="container mt-5 pt-5" id="join">
             <div class="container bg-info px-4 border rounded text-center">
-                <div class="row gx-5 mb-5">
-                    <div class="col">
-                        <div class="p-3">Custom column padding</div>
+                <div class="row gx-5">
+                    <div class="col m-5">
+                        <div class="p-3 text-white text-start">
+                            <h1 class="fw-bold mb-4">Want to explore?</h1>
+                            <p>Our thoughtfully designed curriculum covers everything that a well-rounded programmer
+                                needs to know to become a performant Software Engineer, from programming fundamentals
+                                and object-oriented programming, to advanced programming concepts and software
+                                engineering tools.</p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <div class="p-3">
-                            <button type="button" class="btn btn-light text-info fw-bold ps-4 pe-4"
+                    <div class="col m-5">
+                        <div class="pt-5 mt-5 text-end me-5">
+                            <button type="button" class="btn btn-info bg-white text-info fw-bold ps-4 pe-4"
                                 data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Register Now
                             </button>
 
@@ -489,11 +495,12 @@
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content d-flex justify-content-center">
 
-                                        <div class="modal-body bg-success text-white border rounded">
+                                        <div
+                                            class="modal-body bg-success text-center text-white border rounded pt-5 pb-5">
                                             <h1>Congratulations!</h1>
                                             <p>You have successfully completed your registration.</p>
                                         </div>
-                                        <div class="modal-footer border-0">
+                                        <div class="modal-footer border-0 mt-1 mb-1">
                                             <button type="button" class="btn btn-info ps-3 pe-3"
                                                 data-bs-dismiss="modal">
                                                 <a href="#home" class="nav-link text-white">Dashboard</a>
@@ -510,6 +517,79 @@
             </div>
         </section>
         <!-- ------------------------- Register Section End ------------------------- -->
+
+
+
+        <!-- ------------------------- Success Section Start ------------------------- -->
+        <section class="container mt-5 pt-5" id="success">
+            <div>
+                <h1 class="fw-bold pb-2">Successful Students</h1>
+                <p class="col-lg-6 pb-4">Below are the profiles of some of the people who have learned from our courses
+                    and got jobs/interns in various places.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sagor Hossain</h5>
+                            <p class="card-text">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Jhumu Akter</h5>
+                            <p class="card-text">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Nadir Hossain</h5>
+                            <p class="card-text">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Rumu Akter</h5>
+                            <p class="card-text">Motion Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-white bg-info text-white border-0 fw-bold ps-4 pe-4 mt-5" type="button">
+                    <a href="#home" class="nav-link text-white">View All</a>
+                </button>
+            </div>
+        </section>
+        <!-- ------------------------- Success Section End ------------------------- -->
+
+
+
+        <!-- ------------------------- Feedback Section Start ------------------------- -->
+        <section class="mt-5 pt-5" id="feedback"></section>
+        <!-- ------------------------- Feedback Section End ------------------------- -->
+
+
+
+        <!-- ------------------------- FAQ Section Start ------------------------- -->
+        <section class="mt-5 pt-5" id="FAQ"></section>
+        <!-- ------------------------- FAQ Section End ------------------------- -->
+
+
+
+        <!-- ------------------------- Partner Section Start ------------------------- -->
+        <section class="mt-5 pt-5"></section>
+        <!-- ------------------------- Partner Section End ------------------------- -->
 
 
 
