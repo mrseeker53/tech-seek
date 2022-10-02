@@ -12,5 +12,5 @@ body {
 }
 
 .copyright {
-    margin-bottom: auto;
+    margin-bottom: auto !important;
 }
