@@ -11,6 +11,6 @@ body {
     background-color: aliceblue;
 }
 
-.copyright {
+.copyright p {
     margin-bottom: auto !important;
 }
