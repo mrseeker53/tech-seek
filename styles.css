@@ -10,3 +10,7 @@ body {
 .about-bg-primary {
     background-color: aliceblue;
 }
+
+.copyright {
+    margin-bottom: auto;
+}
